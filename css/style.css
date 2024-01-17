@@ -2,10 +2,6 @@
     background-color: #2c3e50;
 }
 
-main img {
-    width: 200px;
-}
-
 .jumbotron {
     background-color: #1abc9c;
 }
@@ -25,4 +21,27 @@ hr {
 
 .hr-close .fa-solid {
     margin: 0px 20px;
+}
+
+#second-hr hr {
+    border-color: black;
+}
+
+section:nth-of-type(2) {
+    background-color: #1abc9c;
+}
+
+footer {
+    background-color: #3a546d;
+}
+
+.row.justify-content-center.text-center.p-4 {
+    background-color: #2c3e50;
+}
+
+.col-1.border.border-1.rounded.rounded-circle {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
