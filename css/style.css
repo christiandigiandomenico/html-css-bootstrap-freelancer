@@ -1,3 +1,28 @@
 .navbar {
     background-color: #2c3e50;
 }
+
+main img {
+    width: 200px;
+}
+
+.jumbotron {
+    background-color: #1abc9c;
+}
+
+.hr-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    display: inline-block;
+    width: 100px;
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.hr-close .fa-solid {
+    margin: 0px 20px;
+}
